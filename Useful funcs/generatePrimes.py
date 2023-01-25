@@ -18,7 +18,7 @@ def primeGen():
 
 gen = primeGen()
 t = time.time()
-for i in range(99999):
+for i in range(10000):
     next(gen)
 print(time.time() - t)
 print(next(gen))
